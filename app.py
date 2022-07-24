@@ -2,8 +2,8 @@ import streamlit as st
 
 
 st.write("""
-# maximum number app
-This app predicts the credit card approval probablity
+# Find the largest Number
+This app gives the largest number of three numbers given by the user
 """)
 #Get Input
 
