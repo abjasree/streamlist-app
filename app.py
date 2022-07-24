@@ -11,9 +11,9 @@ st.header('User Input Parameters')
 
 def user_input_features():
    
-    number_1 = st.number_input("First Number",min_value=-2000000.0,max_value=2000000.0)
-    number_2 = st.number_input("Second Number",min_value=-2000000.0,max_value=2000000.0)
-    number_3 = st.number_input("Third Number", min_value=2000000.0,max_value=2000000.0)
+    number_1 = st.number_input("First Number",min_value=0.0,max_value=20000.0)
+    number_2 = st.number_input("Second Number",min_value=0.0,max_value=20000.0)
+    number_3 = st.number_input("Third Number", min_value=0.0,max_value=20000.0)
     data = {'number_1':number_1, 'number_2':number_2, 'number_3':number_3}
     return data
 
