@@ -19,9 +19,9 @@ def user_input_features():
 
 d = user_input_features()
 st.subheader('Largest Number')
-if d['number_2'] <= d['number_1'] and d['number_3'] <= d['number_1']:
+if d['number_1'] > d['number_2'] and d['number_1'] > d['number_3']:
     st.write(d['number_1'])
-elif d['number_1'] <= d['number_2'] and d['number_3'] <= d['number_2']:
+elif d['number_2'] > d['number_3']:
     st.write(d['number_2'])
 else:
     st.write(d['number_3'])
